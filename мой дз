@@ -1,0 +1,7 @@
+echo "# python" >> README.md
+git init
+git add README.md
+git commit -m "Комментарий к первому коммиту"
+git branch -M main
+git remote add origin git@github.com:<путь до репозитория>
+git push -u origin main
